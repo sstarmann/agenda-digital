@@ -1,0 +1,58 @@
+/* Estilo global para el cuerpo */
+body {
+    background: linear-gradient(45deg, #1c92d2, #f2fcfe);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo para las tarjetas */
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para la imagen */
+.card-header img {
+    width: 300px; /* Tamaño de la imagen */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    display: block; /* Hace que la imagen sea un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+/* Estilos para los botones */
+.btn-primary {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #0056b3, #007bff);
+}
+
+/* Ajuste de la cabecera */
+.card-header {
+    text-align: center;
+    padding: 20px;
+}
+/* Cambiar el estilo del texto de la opción */
+.texto-opcion {
+    
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+    font-size: 24px; /* Tamaño de la fuente */
+    color: #3bad29; /* Color del texto */
+    font-family: 'cursive', sans-serif; /* Tipo de fuente */
+    font-weight: bold; /* Hace el texto más grueso */
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px; /* Espacio debajo del texto */
+}
+.titulo {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+    font-size: 50px; /* Tamaño de la fuente */
+    color: #0f0f0f; /* Color del texto */
+    font-family: 'Broadway', sans-serif; /* Tipo de fuente */
+    font-weight: bold; /* Hace el texto más grueso */
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px; /* Espacio debajo del texto */
+}

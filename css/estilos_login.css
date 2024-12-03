@@ -1,0 +1,87 @@
+
+
+/* Centrar el formulario en la página */
+body {
+    background: linear-gradient(45deg, #1c92d2, #f2fcfe);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor del formulario */
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #36808f;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el título */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los campos de entrada */
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Estilo para el botón de inicio de sesión */
+button[type="submit"] {
+    background: linear-gradient(45deg, #f0cc01, #01060a);
+    border: black;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background: linear-gradient(45deg, #0056b3, #007bff);
+}
+
+/* Estilo para el mensaje de error */
+.alert-danger {
+    margin-top: 10px;
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Estilos para el icono del formulario */
+input[type="email"], input[type="password"] {
+    background-image: url('path-to-your-icon');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 40px;
+}
+.card-header img {
+    width: 250px; /* Tamaño de la imagen */
+    border-radius: 100%; /* Hace que la imagen sea redonda */
+    display: block; /* Hace que la imagen sea un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+.titulo {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+    font-size: 40px; /* Tamaño de la fuente */
+    color: #0f0f0f; /* Color del texto */
+    font-family: 'Broadway', sans-serif; /* Tipo de fuente */
+    font-weight: bold; /* Hace el texto más grueso */
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px; /* Espacio debajo del texto */
+}

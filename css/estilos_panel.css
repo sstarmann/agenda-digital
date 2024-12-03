@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(45deg, #d7e9f7, #fef9e7);
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    font-family: 'Broadway', Arial, sans-serif;
+    font-size: 2.5rem;
+    color: #007bff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    border: 2px solid #007bff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+}
+
+.btn {
+    font-size: 1rem;
+    padding: 10px 15px;
+}
+
+.list-group-item {
+    border: none;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #007bff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.list-group-item:hover {
+    background-color: #eef4fb;
+    transform: translateY(-2px);
+    transition: 0.3s;
+}
+.mensaje-rojo {
+    color: red;
+    font-size: 1.5rem; /* Ajusta el tamaño de la fuente según tu preferencia */
+    font-weight: bold;
+    text-align: center; /* Opcional, para centrar el texto */
+}

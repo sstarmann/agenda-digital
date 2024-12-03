@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(45deg, #4e54c8, #8f94fb);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; /* Centra el contenedor horizontalmente */
+    align-items: center; /* Centra el contenedor verticalmente */
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centra el contenido del contenedor */
+    align-items: center; /* Centra el contenido del contenedor */
+    width: 100%;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px; /* Mantiene el tamaño máximo de la tarjeta */
+}
+
+.card-header {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.card-header h3 {
+    margin: 0;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #1c92d2, #f2fcfe);
+    border: none;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #f2fcfe, #1c92d2);
+}
+
+input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+.text-muted a {
+    color: #6c63ff;
+    font-weight: bold;
+}
+
+.text-muted a:hover {
+    text-decoration: underline;
+}

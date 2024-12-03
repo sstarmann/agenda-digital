@@ -1,0 +1,25 @@
+body {
+    background-color: #f4f7fc;
+}
+
+.container {
+    max-width: 600px;
+    margin-top: 50px;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.form-label {
+    font-weight: bold;
+}
